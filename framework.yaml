@@ -1,0 +1,58 @@
+domains:
+  - name: "Policy & Governance"
+    weight: 25%
+    criteria:
+      - control: "Compliance policy documented"
+        levels: 
+          1: "No formal policy"
+          2: "Basic policy exists"
+          3: "Policy reviewed annually"
+          4: "Policy integrated with SDLC"
+      - control: "Risk assessment process"
+        levels:
+          1: "Ad hoc assessments"
+          2: "Annual assessments"
+          3: "Quarterly assessments"
+          4: "Continuous risk monitoring"
+
+  - name: "Technical Controls"
+    weight: 40%
+    criteria:
+      - control: "Infrastructure as Code"
+        levels:
+          1: "Manual provisioning"
+          2: "Partial IaC adoption"
+          3: "Full IaC with basic checks"
+          4: "Policy-as-Code enforcement"
+      - control: "Data Protection"
+        levels:
+          1: "No encryption standard"
+          2: "Partial encryption"
+          3: "Encryption everywhere"
+          4: "Automated DLP enforcement"
+          
+  - name: "Monitoring & Evidence"
+    weight: 25%
+    criteria:
+      - control: "Compliance monitoring"
+        levels:
+          1: "Manual checks"
+          2: "Basic cloud-native tools"
+          3: "Centralized dashboard"
+          4: "AI-powered anomaly detection"
+      - control: "Audit readiness"
+        levels:
+          1: "Manual evidence collection"
+          2: "Partially automated"
+          3: "Fully automated"
+          4: "Continuous attestation"
+
+  - name: "Organization & Process"
+    weight: 10%
+    criteria:
+      - control: "Training & Awareness"
+        levels:
+          1: "No formal training"
+          2: "Annual compliance training"
+          3: "Role-specific training"
+          4: "Continuous security culture"
